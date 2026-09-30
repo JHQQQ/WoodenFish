@@ -1,0 +1,56 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "storeFile": "C:/Users/Administrator/Desktop/华为开发/mitsuha.p12",
+          "storePassword": "0000001A3842E8ADEDE89A79AA3D3B52CB44763363C4D41D3AF8CE5B7EE01D61B7E70C1E0F54A839D44A",
+          "keyAlias": "mitsuha754",
+          "keyPassword": "0000001A02BA32F46F8651FA98606023FC02928A4997E0BAAC3C347C972CB5CB71674A30F68F3289F416",
+          "signAlg": "SHA256withECDSA",
+          "profile": "C:/Users/Administrator/Desktop/华为开发/mitsuhaRelease.p7b",
+          "certpath": "C:/Users/Administrator/Desktop/华为开发/mitsuha.cer"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "targetSdkVersion": "26.0.0",
+        "compatibleSdkVersion": "26.0.0",
+        "runtimeOS": "HarmonyOS",
+        "buildOption": {
+          "strictMode": {
+            "caseSensitiveCheck": true,
+            "useNormalizedOHMUrl": true
+          }
+        }
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

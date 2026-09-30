@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "木鱼转盘：敲击木鱼记录功德，转盘随机帮你做选择"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "木鱼转盘主界面"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "是啊选什么"
+    }
+  ]
+}
